@@ -13,7 +13,7 @@ Propeller, beam (330 mm 6-channel aluminum profile, propellers 5.1x3.1x3)
 Jumper wires, breadboard or PCB
 
 System Overview:
-MPU6050 reads the beam’s error angle in real-time.
+ MPU6050 reads the beam’s error angle in real-time. The raw sensor data is processed through a Kalman filter to reduce noise and improve angle estimation accuracy.
 PID control algorithm computes the required correction.
 ESCs receive PWM signals to increase/decrease motor speeds.
 Motors generate thrust to balance the beam horizontally.
