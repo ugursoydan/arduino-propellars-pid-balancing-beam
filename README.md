@@ -20,6 +20,6 @@ Motors generate thrust to balance the beam horizontally.
 
 PID Tuning
 The PID values are manually tuned. You can modify the constants:
-float Kp = 3.0;
-float Ki = 0.05;
-float Kd = 1.2;
+float Kp = 1.3;
+float Ki = 0.0005;
+float Kd = 0.9;
